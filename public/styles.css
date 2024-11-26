@@ -1,0 +1,117 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-buttons button {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Forms */
+.form-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Task Interface */
+.task-interface {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.task-form {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.task-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.task-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Messages */
+.message-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+}
+
+.message {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    color: white;
+}
+
+.success {
+    background-color: #4CAF50;
+}
+
+.error {
+    background-color: #f44336;
+}
